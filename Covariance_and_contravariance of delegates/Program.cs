@@ -36,6 +36,13 @@
             return operation(x, y);
         }
 
+
+        /// <summary>
+        ///  Напишите класс Calculator, 
+        ///  который содержит статические методы для выполнения арифметических операций над двумя числами типа double: double Add(double x, double y), double Subtract(double x, double y), double Multiply(double x, double y) и double Divide(double x, double y). 
+        ///  Затем напишите метод, который принимает на вход два числа типа double и делегат типа Func<double, double, double> и возвращает результат выполнения делегата над этими числами. Продемонстрируйте использование ковариантности и контрвариантности при передаче различных методов калькулятора в этот метод.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             // Создадим методы для арифметических операций
